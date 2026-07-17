@@ -1,0 +1,19 @@
+{
+  "name": "01-langchain-ask",
+  "version": "1.0.0",
+  "description": "极简 LangChain AI 问话示例（使用阿里千问 DashScope）",
+  "main": "src/index.ts",
+  "scripts": {
+    "start": "npx tsx src/index.ts"
+  },
+  "dependencies": {
+    "@langchain/openai": "^1.5.5",
+    "dotenv": "^16.4.7",
+    "langchain": "^1.5.3"
+  },
+  "devDependencies": {
+    "@types/node": "^26.1.1",
+    "tsx": "^4.23.1",
+    "typescript": "^7.0.2"
+  }
+}
