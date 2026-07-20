@@ -1,0 +1,25 @@
+{
+  "name": "02-pdf-parsing",
+  "version": "1.0.0",
+  "description": "PDF 文档解析：LangChain PDFLoader vs pdf-parse 直接调用",
+  "main": "src/index.ts",
+  "scripts": {
+    "start": "npx tsx src/index.ts",
+    "generate": "npx tsx src/generate-pdf.ts"
+  },
+  "dependencies": {
+    "@langchain/community": "^1.1.27",
+    "@langchain/core": "^1.2.3",
+    "dotenv": "^16.4.7",
+    "pdf-parse": "~1.1.1",
+    "pdfkit": "^0.15.0",
+    "pngjs": "^7.0.0"
+  },
+  "devDependencies": {
+    "@types/node": "^26.1.1",
+    "@types/pdfkit": "^0.17.4",
+    "@types/pngjs": "^6.0.5",
+    "tsx": "^4.23.1",
+    "typescript": "^7.0.2"
+  }
+}
