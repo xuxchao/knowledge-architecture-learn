@@ -1,0 +1,23 @@
+{
+  "name": "03-pdf-to-markdown",
+  "version": "1.0.0",
+  "description": "PDF 转 Markdown：规则转换 vs AI 辅助转换（pdf-parse + DashScope LLM）",
+  "main": "src/index.ts",
+  "scripts": {
+    "start": "npx tsx src/index.ts",
+    "generate": "npx tsx src/generate-pdf.ts"
+  },
+  "dependencies": {
+    "@langchain/openai": "^1.5.5",
+    "dotenv": "^16.4.7",
+    "langchain": "^1.5.3",
+    "pdf-parse": "~1.1.1",
+    "pdfkit": "^0.15.0"
+  },
+  "devDependencies": {
+    "@types/node": "^26.1.1",
+    "@types/pdfkit": "^0.17.4",
+    "tsx": "^4.23.1",
+    "typescript": "^7.0.2"
+  }
+}

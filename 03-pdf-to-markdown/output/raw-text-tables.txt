@@ -1,0 +1,102 @@
+
+
+AI 知识库工具与模型对比
+本文档包含两个表格，用于测试 PDF 转 Markdown 时表格结构的保留情况。pdf-
+parse 提取表格时会丢失行列结构，文本按阅读顺序输出为纯文本。
+一、PDF 解析工具对比
+工具名称支持格式图片提取表格识别开源免费
+pdf-parsePDF不支持不支持是
+LangChain 
+PDFLoader
+PDF不支持不支持是
+pdfjs-distPDF支持部分支持是
+Apache TikaPDF/Word/Excel支持部分支持是
+UnstructuredPDF/Word/HTML支持支持是
+CamelotPDF不支持支持是
+表 1：常
+见 PDF 
+解析工具
+能力对比
+
+二、Embedding 模型对比
+以下是常用嵌入模型的参数对比，用于知识库向量化阶段选型参考：
+模型名称维度最大 Token提供商中文支持
+text-embedding-v310248192阿里云优秀
+text-embedding-3-small15368191OpenAI良好
+text-embedding-3-large30728191OpenAI良好
+bge-large-zh-v1.51024512智源研究院优秀
+m3e-base768512Moka AI优秀
+gte-large-zh1024512达摩院优秀
+表 2：
+常用 Em
+bedding
+ 模型参
+数对比
+三、
+文本
+分块
+策略
+说明
+文本
+分块
+是知
+识库
+构建
+的关
+键步
+骤。
+常见
+的分
+块策
+略包
+括：
+固定
+
+长度
+分块
+（按
+字符
+数切
+割）
+、语
+义分
+块
+（按
+段落
+或句
+子边
+界切
+割）
+、滑
+动窗
+口分
+块
+（相
+邻块
+有重
+叠部
+分）
+和递
+归分
+块
+（先
+按大
+段落
+切，
+再按
+句子
+细分
+）。
+选择
+合适
+的分
+块策
+
+略直
+接影
+响检
+索准
+确率
+和生
+成质
+量。
