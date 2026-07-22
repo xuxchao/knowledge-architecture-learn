@@ -8,10 +8,11 @@
     "generate": "npx tsx src/generate-pdf.ts"
   },
   "dependencies": {
+    "@langchain/core": "^1.2.3",
     "@langchain/openai": "^1.5.5",
     "dotenv": "^16.4.7",
     "langchain": "^1.5.3",
-    "pdf-parse": "~1.1.1",
+    "pdf-parse": "~2.4.5",
     "pdfkit": "^0.15.0"
   },
   "devDependencies": {

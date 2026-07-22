@@ -3,5 +3,7 @@ dist/
 .env
 *.log
 
+# 运行产物（output 目录下的 .md/.txt/.json）
+output/
 
 .workbuddy
