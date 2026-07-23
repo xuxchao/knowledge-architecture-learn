@@ -35,6 +35,17 @@ knowledge-architecture/
 4. **可运行验证** — 每个例子应能通过 `npx tsx src/index.ts` 直接运行并观察结果，无需先编译再运行。
 5. **渐进积累** — 后续例子可以引用前面例子的概念，但代码层面保持独立。
 
+## 已有示例项目
+
+| # | 目录 | 知识点 | 说明 |
+|---|------|--------|------|
+| 01 | `01-langchain-ask` | LangChain 基础 | 极简 LangChain AI 问话（DashScope） |
+| 02 | `02-pdf-parsing` | PDF 解析 | LangChain PDFLoader vs pdf-parse 对比 |
+| 03 | `03-pdf-to-markdown` | PDF 转 Markdown | 规则转换 vs AI 辅助转换 |
+| 04 | `04-harness-architecture` | Harness 架构 | 手动实现 Agent ReAct 循环 demo |
+| 05 | `05-deepagents-harness` | DeepAgents | 用 DeepAgents 库重构 Harness |
+| 06 | `06-fetch-reconnect` | fetch + AbortController | AI 流式中断/部分数据回收/重连策略 |
+
 ## 知识点覆盖范围（AI 知识库相关）
 
 - 文本处理与分词

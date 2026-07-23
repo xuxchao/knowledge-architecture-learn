@@ -1,0 +1,24 @@
+{
+  "name": "06-fetch-reconnect",
+  "version": "1.0.0",
+  "description": "fetch + AbortController 演示：基础中断、AI 流式会话中断与重连恢复",
+  "main": "src/index.ts",
+  "scripts": {
+    "start": "npx tsx src/index.ts",
+    "demo:basic": "npx tsx src/01-abort-basic.ts",
+    "demo:stream": "npx tsx src/02-stream-abort.ts",
+    "demo:reconnect": "npx tsx src/03-reconnect.ts"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "packageManager": "pnpm@10.13.1",
+  "devDependencies": {
+    "@types/node": "^26.1.1",
+    "tsx": "^4.23.1",
+    "typescript": "^7.0.2"
+  },
+  "dependencies": {
+    "dotenv": "^17.4.2"
+  }
+}
