@@ -1,0 +1,22 @@
+{
+  "name": "07-markdown-splitter",
+  "version": "1.0.0",
+  "description": "使用 LangChain MarkdownTextSplitter 分割 Markdown 文件的最小 MVP",
+  "main": "src/index.ts",
+  "scripts": {
+    "start": "tsx src/index.ts",
+    "demo": "tsx src/index.ts samples/sample.md"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "packageManager": "pnpm@10.13.1",
+  "dependencies": {
+    "@langchain/textsplitters": "^0.1.0"
+  },
+  "devDependencies": {
+    "@types/node": "^26.1.1",
+    "tsx": "^4.23.1",
+    "typescript": "^7.0.2"
+  }
+}

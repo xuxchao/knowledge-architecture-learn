@@ -45,6 +45,8 @@ knowledge-architecture/
 | 04 | `04-harness-architecture` | Harness 架构 | 手动实现 Agent ReAct 循环 demo |
 | 05 | `05-deepagents-harness` | DeepAgents | 用 DeepAgents 库重构 Harness |
 | 06 | `06-fetch-reconnect` | fetch + AbortController | AI 流式中断/部分数据回收/重连策略 |
+| 07 | `07-markdown-splitter` | Markdown 分块 | LangChain MarkdownTextSplitter 按 MD 标题分割文件 |
+| 08 | `08-postgres-checkpoint` | 检查点持久化 | LangGraph + PostgreSQL 跨重启状态持久化 |
 
 ## 知识点覆盖范围（AI 知识库相关）
 
